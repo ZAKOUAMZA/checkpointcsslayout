@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+list-style: none;
+}
+.navbar{
+  padding-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    align-items: center;
+    position: fixed;
+    background-color: white;   
+}
+.navbar a{
+    color:#ababab;
+}
+.navbar .logo .logo-docplanner{
+    font-size: 2em;
+    font-weight: bold;
+    width: 270px;
+    height: auto;
+}
+.navbar .nav-link ul{
+    display: flex;
+}
+.navbar .nav-link ul li{
+    margin: 0 35px;
+
+}
+.navbar .nav-link ul li.active a{
+   color:#00b39b; 
+}
+ .logo2{
+    display: flex;
+    justify-content: center;
+    padding-right:200px ;
+    padding-top: 50px;
+}
+.titre p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#00b39b; 
+    padding-top:40px ;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-size:40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-right: 80px ;
+}
+
+.col-2 {
+  padding-left: 200px;
+    color:#747474;
+  font-family: 'roboto',sans-serif;
+    padding-top: 80px;
+    column-width: 30em;
+    font-size:18px;
+    line-height: 1.75;
+    font-weight: 400;
+    padding-right: 80px ;
+}
+  *{
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 48px;
+    height: 380px;
+    margin: 15px;
+    border-radius: 15px; 
+
+  }
+  .row{
+    padding-left: 200px;
+    font-family: 'roboto',sans-serif;
+    padding-top: 70px;
+    content: "";
+    display:flex;
+    clear: both;
+    color: white;
+    font-size:15px;
+    line-height: 1.90;
+    padding-right: 80px ;
+  }
+  .row p{
+    font-size: 20px;
+  }
+  .row #bo1{
+    padding-top: 50px;
+  border-color: #00b39b;
+  
+  }
+  .row #op1{
+    background-color: #00b39b;
+    border: none;
+    color: white;
+    text-decoration:underline;
+    font-size: 20px;
+  }
+  .row #op2{
+  background-color: rgb(0, 170, 255);
+  border: none;
+  color: white;
+  text-decoration:underline;
+    font-size: 20px;
+  }
+  .row #op3{
+    background-color: black;
+    border: none;
+    color: white;
+    text-decoration:underline;
+    font-size: 20px;
+  }
+
+  .row #bo3{
+    padding-top: 60px;
+  }
+  .row #bo2{
+    padding-top: 85px;
+  }
+  .bas{
+    font-size: 30px;
+    font-family: 'roboto',sans-serif;
+    color: #00b39b;
+    padding: 15px;
+  }
+  
+  .colonne2{
+    padding-right: 80px ;
+    padding-left: 200px;
+    font-family: 'roboto',sans-serif;
+    padding-top: 70px;
+    content: "";
+    display:flex;
+    clear: both; 
+    line-height: 1.90;
+  }
+  #dim{
+    font-size:10px ;
+
+  }
+  #sep{
+    padding-top: 30px;
+  }
+
+  /*.section{
+    padding: 1.875em 0 0.625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem; 
+    padding-bottom: 50%;
+}*/
+.grid .h1_header{
+  padding: 5%;
+  font-size: 120%;
+  line-height: 1.60;
+  font-family: 'roboto',sans-serif;
+}
+.logdoc{
+  padding-left: 10%;
+}
+.section2{
+  padding-top: 5%;
+  text-align: center;
+}
+.section2 .h1_section2{
+font-size: 150%;
+color: #00b39b;
+}
+.section2 .p_section2{
+  padding-top: 2%;
+  font-size: 110%;
+  color: #747474;
+
+  }
+  .row2{
+   padding-left: 200px;
+    content: "";
+    display:flex;
+    clear: both;
+    padding-right: 80px ;
+    margin: 3%;
+
+  }
+  .img1{
+    padding: 10px;
+  }
+ .img1 button{
+padding: 2%;
+border-radius: 8px;
+width: 50%;
+background-color:#3d83df;
+color: white;
+border: none;
+font-family: 'robot',sans-serif;
+font-size: 100%;
+cursor: pointer;
+
+}
+.img1 .span
+{
+padding-right: 28%;
+color: #747474;
+
+}
+.der{
+  font-size:200%;
+  text-align: center;
+}
+.der button{
+  text-align: center;
+  padding: 1%;
+  background-color: #3d83df;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  width: 25%;
+  font-size:55% ;
+  cursor: pointer;
+}
+.footer{
+  padding-top: 5%;
+}
+.footer p{
+  color: #747474;
+  text-align: center;
+}
+.footer p span{
+color:#3d83df;
+cursor: pointer;
+}
+
+.bas ul li a .am .an:hover{
+  color:#00b39b;
+}
+.milieux{
+    background-color: #e5faf8;
+    padding-bottom: -30%;
+}
+.milieux .milieux_p{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.milieux .milieux_p #p{
+    padding-left: 10%;
+    font-size: 250%;
+    color:#00b39b;
+}
+
+.milieux .milieux_p #p2{
+    padding-left: 10%;
+    font-size: 100%;
+    color:#747474;
+}
+
+
+
+   
+  
