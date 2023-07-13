@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="minimum-scale=0.5">
+    <!--meta name="viewport" content="maximum-scale=5.0"-->
+    <link rel="stylesheet" href="index3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Manrope:wght@300&family=Roboto&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+}
+.square{
+   position: relative;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square i{
+    position: absolute;
+    inset:0;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+.square i:nth-child(1){
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    animation: animate 6s linear infinite;
+    
+}
+.square i:nth-child(2){
+    border-radius: 41% 44% 56% 59% / 38% 63% 69% 37%;
+    animation: animate 4s linear infinite;
+}
+.square i:nth-child(3){
+    border-radius: 41% 44% 56% 59% / 38% 62% 63% 37%;
+    animation: animate 10s linear infinite;
+}
+.square:hover i{
+    border:6px solid var(--clr);
+    filter:drop-shadow(0 0 20px var(clr)) ;
+}
+
+@keyframes animate{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    } 
+    }
+    @keyframes animate2{
+        0%
+        {
+            transform: rotate(360deg);
+        }
+        100%
+        {
+            transform: rotate(0deg);
+        } 
+        }
+        .login{
+            position: absolute;
+            width: 300px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .login h2{
+            font-size: 2em;
+            color: #fff;
+        }
+        .login .inputbx{
+            position: relative;
+            width: 100%;
+
+        }
+
+        .login .inputbx input{
+            position: relative;
+            width: 100%;
+            padding: 12px 20px;
+            background: transparent;
+            border: 10px solid #fff;
+            border-radius: 40px;
+            font-size: 1.2em;
+            color: #fff;
+            box-shadow: none;
+            outline: none;
+        }
+        .login .inputbx input[type="submit"]{
+            width: 100%;
+            background: linear-gradient(45deg,#ff357a,#fff172);
+            border: none;
+            cursor: pointer;
+        }
+        .login .inputbx input[type="submit"]:hover{
+          transition: opacity 0.5 linear;
+            opacity: 0;
+        }
+        .login .links{
+            position: relative;
+            width: 100%;
+            display: flex; 
+            align-items: center;  
+            justify-content:space-between;
+            padding: 0% 20px;
+            
+             }
+             .login .links a{
+                color: #fff;
+                text-decoration: none;
+             }
+           
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="square">
+        <i style="--clr:#00ff0a;"></i>
+        <i style="--clr:#ff0057;"></i>
+        <i style="--clr:#fffd44;"></i>    
+    <div class="login">
+        <h2>Identifiant</h2>
+        
+            <div class="inputbx">
+                <input type="text" placeholder="Nom">
+                </div>
+                <div class="inputbx">
+                    <input type="text" placeholder="Prenom">
+                    </div>
+                    <div class="inputbx">
+                        <input type="text" placeholder="Email">
+                        </div>
+            <div class="inputbx">
+                <input type="password" placeholder="Mot de passe">
+                </div>
+                <div class="inputbx">
+                    <input type="submit" value="S'identifier">
+                    </div>
+                    <div class="links">
+                        <a href="#">Mot de pass oublié</a>
+                        <a href="#">S'inscrire</a>
+                    </div>
+                    </div>
+    </div>
+                                     
+</body>
+</html>
