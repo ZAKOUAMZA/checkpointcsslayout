@@ -37,6 +37,9 @@ list-style: none;
 .navbar .nav-link ul li.active a{
    color:#00b39b; 
 }
+.nav-link  li a:hover{
+   color:#00b39b; 
+}
 
  .logo2{
     display: flex;
@@ -262,5 +265,31 @@ cursor: pointer;
     color:#747474;
 }
 
- 
+.propos-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+.propos-content a {
+  color: #747474;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+.propos-content a:hover {background-color:transparent;}
+
+.propos:hover .propos-content {
+display: block;
+}
+
+
+li.propos {
+  display: inline-block;
+}
   
